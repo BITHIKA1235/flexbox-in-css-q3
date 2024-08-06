@@ -1,0 +1,25 @@
+/* Ensure the body takes up the full viewport height */
+body {
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Flex container */
+.container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    width: 500%;
+    height: 500%;
+}
+
+/* The centered div */
+.centered {
+    padding: 20px;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 8px;
+}
